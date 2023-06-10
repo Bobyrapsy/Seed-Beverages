@@ -1,0 +1,312 @@
+
+
+
+/*If the viewport is equqal to 400px or less than that*/
+@media only screen and (max-width: 430px){
+    .aqua .header_area .main-menu .navbar,
+    .aqua .header_area .main-menu .navbar .navbar-brand,
+    .main-aqua .subscribe-us-area .subscribe .subscribe-title,
+    .main-aqua .subscribe-us-area .subscribe .subscribe-title p, h4,
+    .main-aqua .services-area,
+    .main-aqua .subscribe-us-area .subscribe{
+        padding: 5%;
+        margin: 0%;
+    }
+    
+    .main-aqua .about-area .about-title h2 > span{
+        display: block;
+        font: normal bold 45px/ 100px var(--roboto);
+        letter-spacing: 15px;
+        text-align: center;
+        margin: 1rem -4rem;
+    }
+
+    .main-aqua .site-banner .site-title h1{
+        font-size: 41px;
+    }
+
+    .main-aqua .subscribe-us-area .subscribe form .input-textbox .input{
+        width: 15rem !important;
+    }
+
+    .main-aqua .subscribe-us-area{
+        margin-left: 2.5rem;
+    }
+
+    .main-aqua .subscribe-us-area .subscribe form .btn{
+        margin-left: 4rem;
+    }
+
+    .main-aqua > .services-area .services{
+        width: 12rem;
+    }
+
+    .main-aqua .brand-area{
+        margin-top: 2rem;
+    }
+
+    .site-banner .container img{
+        margin-top: 1rem;
+    }
+
+    .main-aqua .about-area .about-title .paragraph > p{
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .row{
+        flex-direction: column;
+        padding-bottom: 5rem;
+    }
+
+    spare{
+        margin-top: -5rem;
+    }
+
+    .bleh{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient( #f5fbff, #d1e5f4);
+    }
+    
+    .bleh .image{
+        margin-top: 1rem;
+        margin-left: 2rem;
+        height: 95vh;
+        width: 50%;
+        opacity: 0;
+        background: transparent;
+        animation: opacity 1s ease forwards;
+        animation-delay: 1.4s;
+    }
+    
+    .bleh .image img{
+        margin: -1rem auto;
+        width: 20rem;
+        opacity: 0;
+        animation: slideRight 1s ease forwards;
+        animation-delay: 2s;
+    }
+
+    .bleh .image .ultra{
+        margin: 1rem auto;
+        height: 15rem;
+        width: 14rem;
+    }
+    
+    .sale-box{
+        margin: 1rem auto;
+        box-shadow: var(--box-shadow4);
+        height: 20rem;
+        width: 18rem;
+        opacity: 0;
+        border-radius: 2rem;
+        background-color: #ffffff;
+        justify-content: center;
+        animation: zoomIn 1s ease forwards;
+        animation-delay: 2s;
+    }
+    
+    .bleh .sale-box .guy-box{
+        justify-content: center;
+        padding: 12px;
+        margin-top: 1rem;
+    }
+
+    .her{
+        width: 16.5rem;
+    }
+    
+    .bruh{
+        text-align: center;
+        color: #777;
+        letter-spacing: 3px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        padding: 3px;
+    }
+
+    .burn{
+        margin: 1rem 3rem;
+    }
+
+    .cta{
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/CM.jpg);
+    }
+    
+
+}
+
+
+/*If the viewport is equqal to 792px or less than that*/
+@media only screen and (max-width: 792px){
+
+    .main-aqua .brand-area .experience-area .years-area{
+        padding-left: 1%;
+        width: 49%;
+    }
+
+    .main-aqua .brand-area .experience-area .bg-panel{
+        margin-left: 30%;
+        width: 80%;
+    }
+
+    .main-aqua .brand-area .experience-area .call-area{
+        padding-left: 3%;
+    }
+
+    .main-aqua .project-area .button-group button{
+        font: normal 500 18px/40px var(--roboto);
+    }
+
+    .main-aqua .about-area .about-title p{
+        padding: 0%;
+    }
+
+    .main-aqua .subscribe-us-area .subscribe form .input-textbox .input{
+        width: 15rem;
+        margin: 2.5%;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .bleh{
+        display: flex;
+        flex-direction: colum;
+    }
+
+    .bleh .image{
+        background: transparent;
+    }
+
+    .bleh .image img{
+        margin: -1rem auto;
+        width: 20rem;
+    }
+
+    .bleh .image .ultra{
+        margin: 1rem auto;
+        height: 15rem;
+        width: 14rem;
+    }
+
+    .sale-box{
+        margin: 1rem auto;
+        height: 20rem;
+        width: 18rem;
+    }
+
+    .her{
+        width: 16.5rem;
+    }
+
+    .bleh .sale-box .guy-box{
+        margin-top: 1rem;
+    }
+
+    .burn{
+        margin: .3rem 3rem;
+    }
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 1024px){
+    .header_area .main-menu .navbar .navbar-brand{
+    padding: 0 14rem 0 9rem;
+    }
+
+    .bleh{
+        display: flex;
+        flex-direction: colum;
+    }
+
+    .bleh .image{
+        background: transparent;
+    }
+
+    .bleh .image img{
+        margin: -1rem auto;
+        width: 20rem;
+    }
+
+    .bleh .image .ultra{
+        margin: 1rem auto;
+        height: 15rem;
+        width: 14rem;
+    }
+
+    .sale-box{
+        margin: 1rem auto;
+        height: 20rem;
+        width: 18rem;
+    }
+
+    .her{
+        width: 16.5rem;
+    }
+
+    .bleh .sale-box .guy-box{
+        margin-top: 1rem;
+    }
+
+    .burn{
+        margin: .3rem 3rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 1080px){
+
+    .main-aqua .about-area{
+        padding: 3rem 1.5rem;
+	    margin: auto;
+        margin-top: 10rem;
+    }
+
+    .main-aqua .about-area .row .img-box{
+        width: 20rem;
+    }
+
+    .main-aqua .about-area .row .img-box .about-image img{
+        margin-left: .5rem;
+    }
+
+    .main-aqua .about-area .about-title{
+        width: 30rem;
+        padding: 30px 2rem;
+        flex-basis: 60%;
+    }
+
+}
+
+
+
+/*If the viewport is equqal to 1910px or less than that*/
+@media only screen and (max-width: 1910px){
+    .header_area .main-menu .navbar{
+        padding: 1rem;
+    }
+
+    .container{
+        max-width: 90%;
+    }
+
+    .main-aqua .brand-area,
+    .main-aqua .services-area .services-title{
+        padding: 3% 4%;
+    }
+
+
+
+}

@@ -1,0 +1,600 @@
+
+/*import fonts from fonts.css file*/
+@import url(fonts.css);
+
+
+/* CSS Variables */
+@import url(partials/variables.css);
+
+/* Import global styling */
+@import url(partials/global.css);
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.soeto{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/*Start Aqua area*/
+
+.aqua{
+	height: 92vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(30, 21, 4, 0.49),#04091e73),url(../img/bottle.jpeg);
+    background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+/*Start Header or Navbar area*/
+
+.header_area{
+    background-color: #ffffff;
+}
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 28rem 0 12rem;
+}
+
+.aqua .header_area .main-menu .navbar{
+    padding: 1.2rem 1rem;
+}
+
+.aqua .header_area .main-menu .nav-item .nav-link{
+    font-family: var(--roboto);
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 5px 20px;
+    color: var(--title-color);
+}
+
+.aqua .header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.aqua .header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/*End Header or Navbar Area*/
+
+.text-box{
+	width: 100%;
+	color: #ffffff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+.text-box h1{
+	font-size: 5rem;
+}
+
+sparo{
+    color: #0000ff;
+    filter: brightness(1.8);
+}
+
+.text-box p{
+	margin: 10px 0 40px;
+	font-size: 16px;
+    font-weight: 500;
+	color: #ffffff;
+}
+
+.blah{
+    width: 100%;
+    height: 6vh;
+    background-color: blue;
+    box-shadow: var(--box-shadow4);
+}
+
+@media(max-width: 700px){
+	.text-box h1{
+		font-size: 45px;
+	}
+
+    .text-box p{
+        font-size: 12px;
+    }
+}
+
+/*End Aqua area*/
+
+
+/*Start About Area*/
+
+.row1{
+    display: flex;
+    margin-top: 20rem;
+    padding-bottom: 20rem;
+    justify-content: space-between;
+}
+
+.about-area{
+	width: 62%;
+	margin: auto;
+    margin-top: 15rem;
+}
+
+.main-aqua .about-area .row1 .img-box{
+    margin-top: 8rem;
+    box-shadow: var(--box-shadow4);
+    width: 27rem;
+    border-radius: 2rem;
+    animation: floatImage 4s ease-in-out infinite;
+    animation-delay: 3s;
+}
+
+.main-aqua .about-area .row1 .img-box .about-image img{
+    margin-top: -3rem;
+    margin-left: 2.5rem;
+    filter: brightness(1.1);
+}
+
+.main-aqua .about-area .about-title{
+    width: 30rem;
+    margin-top: 2.5rem;
+}
+
+.main-aqua .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 45px/ 250px var(--roboto);
+    letter-spacing: 15px;
+    text-align: center;
+}
+
+.main-aqua .about-area .about-title .paragraph > p{
+    padding: 10px 0;
+}
+
+
+
+/*img-box float animation keyframe start*/
+
+@keyframes floatImage{
+    0%{
+        transform: translateY(30px);
+    }
+
+    50%{
+        transform: translateY(-30px);
+    }
+
+    100%{
+        transform: translateY(30px);
+    }
+}
+
+/*img-box float animation keyframe end*/
+
+
+
+/*End About Area*/
+
+
+
+
+
+/*------ Start Services Area ------*/
+
+.Offers{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+h1{
+	font-size: 7rem;
+	font-weight: 600;
+}
+
+.Offers .para{
+	color: #777;
+    letter-spacing: 3px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 22px;
+	padding: 10px;
+}
+
+p{
+    color: #777;
+}
+
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.Offers-col{
+	flex-basis: 31%;
+	background: #fff3f3;
+	border-radius: 20px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+}
+
+.deku{
+    width: 15rem;
+}
+
+.tesho{
+    width: 16rem;
+    height: 14rem;
+    border-radius: 20px;
+}
+
+.kage{
+    width: 18.5rem;
+}
+
+h3{
+	text-align: center;
+	font-weight: 600;
+    margin: 10px 0;
+}
+
+.Offers-col:hover{
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+spar{
+    color: #0000ff;
+}
+
+
+@media(max-width: 700px){
+	.row{
+		flex-direction: column;
+	}
+
+    h1{
+        font-size: 3rem;
+    }
+}
+
+
+/*------ End Services Area ------*/
+
+
+
+
+
+
+
+/*---------- Start Sales Page Area -----------*/
+
+.bleh{
+    display: flex;
+    height: 100vh;
+	width: 100%;
+    background: linear-gradient( #f5fbff, #d1e5f4);
+}
+
+.bleh{
+    animation: opacity 1s ease;
+}
+
+.bleh .image{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    height: 95vh;
+    width: 50%;
+    opacity: 0;
+    background-image: url(../img/amoeba.png);
+    animation: opacity 1s ease forwards;
+    animation-delay: 1.4s;
+}
+
+.bleh .image img{
+    margin: 4rem 14rem;
+    width: 40rem;
+    border-radius: 20px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 2s;
+}
+
+.bleh .imugu img{
+    filter: brightness(1.2);
+}
+
+.bleh .image .ultra{
+    margin: 6rem 16rem;
+    height: 30rem;
+    width: 30rem;
+}
+
+.sale-box{
+    margin: 8rem 10rem;
+    box-shadow: var(--box-shadow4);
+    height: 30rem;
+    width: 30rem;
+    opacity: 0;
+    border-radius: 2rem;
+    background-color: #ffffff;
+    justify-content: center;
+    animation: zoomIn 1s ease forwards;
+    animation-delay: 2s;
+}
+
+.bleh .sale-box .guy-box{
+    justify-content: center;
+    padding: 12px;
+    margin-top: 5rem;
+}
+
+
+
+.bruh{
+    text-align: center;
+    color: #777;
+    letter-spacing: 3px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 22px;
+	padding: 4px;
+}
+
+
+/*---------- Start Animation sector for Sales Page Area ----------*/
+
+@keyframes slideRight {
+    0%{
+        transform: translateX(-250px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes opacity {
+    0%{
+        transform: translate(0);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(1);
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+
+/*---------- End Animation sector for Sales Page Area ----------*/
+
+
+/*---------- End Sales Page Area -----------*/
+
+
+
+
+
+/*Start Blog Area*/
+
+
+.main-aqua .about-me-area{
+    position: center;
+}
+
+.main-aqua .about-me-area .about-title p{
+    padding: 1rem  7rem;
+}
+.main-aqua .about-me-area .about-title h1{
+    font: normal 500 16px/60px var(--roboto);
+    font-size: 2.5rem;
+}
+
+.main-aqua .about-me-area .client{
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+    border-radius: 1rem;
+}
+
+.main-aqua .about-me-area .client .client-img{
+    padding: 2rem;
+}
+.main-aqua .about-me-area .client .client-img img{
+    border-radius: 1rem;
+}
+
+.main-aqua .about-me-area .client .about-client{
+    padding-top: 4rem;
+}
+
+.main-aqua .about-me-area .client .about-client .fa{
+    color: rgb(218, 218, 0);
+}
+
+.main-aqua .about-me-area .client .about-client h4{
+    font: normal 500 21px/20px var(--roboto);
+}
+
+.main-aqua .about-me-area .client .about-client p{
+    font-size: 14px;
+}
+
+.main-aqua .about-me-area .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+.main-aqua .about-me-area .owl-carousel .owl-dots .owl-dot.active span{
+    background-color: var(--primary-color);
+    width: 12px;
+    height: 12px;
+}  
+
+
+/*End Blog Area*/
+
+
+
+
+/*-------- Start Contact Area -------*/
+
+
+.cta{
+    margin-bottom: 10rem;
+	margin: 100px auto;
+	width: 80%;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/BOD4.jpg);
+	background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+	text-align: center;
+	padding: 100px 0;
+}
+
+.cta h1{
+	color: #fff;
+	margin-bottom: 40px;
+	padding: 0;
+}
+
+
+@media(max-width: 700px){
+	.cta .h1{
+		font-size: 24px;
+	}
+}
+
+
+/*-------- End Contact Area -------*/
+
+
+
+
+
+footer{
+    position: relative;
+    width: 100%;
+    background: #3586ff;
+    min-height: 70px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .social .buga{
+    font-weight: 600;
+    color: white;
+}
+
+footer .social .sento{
+    color: white;
+}
+
+footer .social a>i{
+    font-size: 33px;
+    padding: 2rem;
+    color: whitesmoke;
+    transition: .5s;
+}
+
+footer .social a:hover>i{
+    color: blue;
+    transform: translateY(-10px);
+    transition: .5s;
+}
+
+footer .wave{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(../img/wave.png);
+    background-size: 1000px 100px;
+}
+
+footer .wave#wave1{
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animatewave 4s linear infinite;
+}
+
+footer .wave#wave2{
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animatewave_02 4s linear infinite;
+}
+
+footer .wave#wave3{
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animatewave 3s linear infinite;
+}
+
+footer .wave#wave4{
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animatewave_02 3s linear infinite;
+}
+
+@keyframes animatewave{
+    0%{
+        background-position-x: 1000px;
+    }
+
+    100%{
+        background-position-x: 0px;
+    }
+}
+
+@keyframes animatewave_02{
+    0%{
+        background-position-x: 0px;
+    }
+
+    100%{
+        background-position-x: 1000px;
+    }
+}
+
+
