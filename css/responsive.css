@@ -136,6 +136,8 @@
     .cta{
         background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/CM.jpg);
     }
+
+    
     
 
 }
@@ -212,6 +214,14 @@
     .burn{
         margin: .3rem 3rem;
     }
+
+    .sub-header h1{
+		font-size: 20px;
+		margin-bottom: 100px;
+	}
+	.sub-header img{
+		height: 100px;
+	}
 
 
 
