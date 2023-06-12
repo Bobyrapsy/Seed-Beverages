@@ -33,7 +33,7 @@ html{
 .aqua{
 	height: 92vh;
 	width: 100%;
-	background-image: linear-gradient(rgba(30, 21, 4, 0.49),#04091e73),url(img/bottle4.jpg);
+	background-image: linear-gradient(rgba(30, 21, 4, 0.49), #04091e73), url(../img/bottle3.jpg);
         background-position: center;
 	background-size: cover;
 	position: relative;
